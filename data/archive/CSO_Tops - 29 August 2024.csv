@@ -1,0 +1,4 @@
+Name;Network ID;Primary skill;Default Operationality;Service Finance Code;Site;Base Entity;Element of;Contract type;Quantity;% Direct;% Contract;% Allocation;Effective start date;Effective end date;Simulation?
+TOP_1;TOP_1;GM;Functional;DB1501;ND;FRR2400126;EDOO;CONTS;2.0;0.0;100.0;100.0;04/01/2024;06/30/2024;YES
+TOP_2;TOP_2;STD-RES;Operational;BS1000;ND;FRR2400126;STAT;CONTS;10.0;100.0;100.0;100.0;01/01/2024;03/31/2024;YES
+TOP_3;TOP_3;STT;Operational;BS1000;ND;FRR2400126;STAT;CONTS;2.0;100.0;100.0;100.0;01/01/2024;03/31/2024;YES

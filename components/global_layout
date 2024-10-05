@@ -1,0 +1,41 @@
+# import dash_bootstrap_components as dbc
+# from dash import dcc
+# from navbar import navbar
+# from sidebar import sidebar
+# from content import content
+
+# # The dcc.Store component in Dash is used to store data on the client-side 
+# # of the application (i.e., within the user's browser). 
+# # This allows you to store data that can be accessed and manipulated 
+# # by other components or callbacks without needing to refresh the page 
+# # or send data back and forth between the client and server repeatedly.
+
+# def make_layout():
+#     global_layout= dbc.Container(
+#             [
+#                 dcc.Location(id="url"),
+#                 navbar,
+#                 dcc.Store(id='login-status', storage_type='session'),# Stock if the user is authentificated or not
+#                 dcc.Store(id='archive_date_store', storage_type='session'),
+#                 dcc.Store(id='data_ope_year', storage_type='session'),
+#                 dcc.Store(id='data_ope_next_year', storage_type='session'),
+#                 dcc.Store(id='data_ope_year_two', storage_type='session'),
+#                 dcc.Store(id='data_func_year', storage_type='session'),
+#                 dcc.Store(id='data_func_next_year', storage_type='session'),
+#                 dcc.Store(id='data_func_year_two', storage_type='session'),
+#                 dcc.Store(id='data_archive_simu_ope', storage_type='session'),
+#                 dcc.Store(id='data_archive_simu_func', storage_type='session'),
+#                 dcc.Store(id='data_archive_tops', storage_type='session'),
+#                 dbc.Row(
+#                     [
+#                         dbc.Col(sidebar,width=1,style={"backgroundColor": "#F4F2F6",'overflow': 'auto'}),
+#                         dbc.Col(content,width={"size":11}),
+#                     ],
+#                     #class_name="g-0",
+#                     style={"height":"100vh"},
+#                 ),
+#             ],
+#             fluid=True,
+#         )
+
+#     return global_layout

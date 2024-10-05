@@ -1,0 +1,201 @@
+{
+  "version": 1,
+  "locale": "fr_FR.cp1252",
+  "metadata": {
+    "appmode": "python-dash",
+    "entrypoint": "index"
+  },
+  "python": {
+    "version": "3.8.6",
+    "package_manager": {
+      "name": "pip",
+      "version": "24.0",
+      "package_file": "requirements.txt"
+    }
+  },
+  "files": {
+    "requirements.txt": {
+      "checksum": "dbebfe9124ffcc3920bc07aea4fc4a79"
+    },
+    ".gitignore": {
+      "checksum": "3656ddfea33398c32a9e5d714a54f005"
+    },
+    "README.txt": {
+      "checksum": "7cd95df06f4c40425244c1353f8dd2fd"
+    },
+    "app.py": {
+      "checksum": "cdd99d020bd019e5717d19dd07a33554"
+    },
+    "assets/bootstrap.min.css": {
+      "checksum": "7220ff2c6fea81afc3a112a4f3a41771"
+    },
+    "assets/dashAgGridFunctions.js": {
+      "checksum": "1328383932f5be6f47b1462097e13b24"
+    },
+    "assets/draw.png": {
+      "checksum": "acaa7c349408056527b28b4c1255004f"
+    },
+    "assets/example.pdf": {
+      "checksum": "38335dffbe49cd548935c38e7dcc8667"
+    },
+    "assets/favicon.ico": {
+      "checksum": "fdf638c532cdcd1e258464b293388cc9"
+    },
+    "assets/sanofi.png": {
+      "checksum": "07e159b511001162d2c0fa668961371b"
+    },
+    "assets/sanofi_white.png": {
+      "checksum": "ce56aa9922c138d2d9eea0dd760ffeeb"
+    },
+    "assets/theme.css": {
+      "checksum": "13d1410e78ba1561459e0fabfbf45050"
+    },
+    "data/data_sourcing_table - March 2024.csv": {
+      "checksum": "1a099884f918fb86b62fb4b899bda408"
+    },
+    "data/data_sourcing_table_func_simulation - March 2024.csv": {
+      "checksum": "cddc18eb03225c8688fdc68b6addddd4"
+    },
+    "data/data_sourcing_table_simulation - March 2024.csv": {
+      "checksum": "d2f9db9f60e6f6d7c9e30ff3d6e0e62d"
+    },
+    "data/df_sourcing_table_func.csv": {
+      "checksum": "22741cd9c6dcb18eb0f97f411f863031"
+    },
+    "index.py": {
+      "checksum": "7009d4c8088f90383537a66c14a7dac6"
+    },
+    "layout.py": {
+      "checksum": "1af41c2f691728a6f08b70c16195a24e"
+    },
+    "pages/__init__.py": {
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "pages/__pycache__/__init__.cpython-311.pyc": {
+      "checksum": "dcde5ef8412f6e318e7b6fa2216d44ea"
+    },
+    "pages/__pycache__/__init__.cpython-38.pyc": {
+      "checksum": "cf79c5d5eeb2891580570bec33e226ec"
+    },
+    "pages/homepage/__pycache__/feedback.cpython-311.pyc": {
+      "checksum": "5c676170849aa135e0bcc6c9d0896583"
+    },
+    "pages/homepage/__pycache__/feedback.cpython-38.pyc": {
+      "checksum": "64cbfd2eec93f7f489e927ca85009676"
+    },
+    "pages/homepage/__pycache__/home.cpython-311.pyc": {
+      "checksum": "5e1936730652b877ed71b3847b1fcb04"
+    },
+    "pages/homepage/__pycache__/home.cpython-38.pyc": {
+      "checksum": "4314dc111f7956b4c331aaa071427374"
+    },
+    "pages/homepage/__pycache__/user_guide.cpython-38.pyc": {
+      "checksum": "30292d3c7bd9f3304aa2f7c8831cca09"
+    },
+    "pages/homepage/feedback.py": {
+      "checksum": "ba691871dfbfdfcfa4a12cf33fd10db9"
+    },
+    "pages/homepage/home.py": {
+      "checksum": "bd43b610ead046654a15f9ca742f17d5"
+    },
+    "pages/homepage/user_guide.py": {
+      "checksum": "9ef1303fe7f51dd8a54d52415a2e1596"
+    },
+    "pages/sourcing_table/__init__.py": {
+      "checksum": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "pages/sourcing_table/__pycache__/__init__.cpython-311.pyc": {
+      "checksum": "4c7992c77a1da1923c0283701d0473ac"
+    },
+    "pages/sourcing_table/__pycache__/__init__.cpython-38.pyc": {
+      "checksum": "ba4751976968539a68880c20b3b8a1f7"
+    },
+    "pages/sourcing_table/__pycache__/dashboard_current_year.cpython-311.pyc": {
+      "checksum": "3df6196eb99d78973d8da8c20fa3993f"
+    },
+    "pages/sourcing_table/__pycache__/dashboard_current_year.cpython-38.pyc": {
+      "checksum": "44b87fcd010ab215f516e98e56797c3d"
+    },
+    "pages/sourcing_table/__pycache__/dashboard_functional.cpython-311.pyc": {
+      "checksum": "16534810da599f5024ee49891402ea02"
+    },
+    "pages/sourcing_table/__pycache__/dashboard_functional.cpython-38.pyc": {
+      "checksum": "5a03d289024d6cfce3285be9048fa3c2"
+    },
+    "pages/sourcing_table/__pycache__/dashboard_functional_current_year.cpython-38.pyc": {
+      "checksum": "d4d9e75991badbfef2ae921fa77bfa87"
+    },
+    "pages/sourcing_table/__pycache__/dashboard_functional_next_next_year.cpython-38.pyc": {
+      "checksum": "4289da508d2fd21160f087831c48848f"
+    },
+    "pages/sourcing_table/__pycache__/dashboard_functional_next_year.cpython-38.pyc": {
+      "checksum": "82a856a693b8990635d1da8e2a11990a"
+    },
+    "pages/sourcing_table/__pycache__/dashboard_next_next_year.cpython-311.pyc": {
+      "checksum": "d06bca3f6aabb248878c4b9b46d8659c"
+    },
+    "pages/sourcing_table/__pycache__/dashboard_next_next_year.cpython-38.pyc": {
+      "checksum": "c9a2a8feaf83746a88f40021624d11db"
+    },
+    "pages/sourcing_table/__pycache__/dashboard_next_year.cpython-311.pyc": {
+      "checksum": "124e756edddadfa68b2d8a9b21323465"
+    },
+    "pages/sourcing_table/__pycache__/dashboard_next_year.cpython-38.pyc": {
+      "checksum": "7753a60486b0a515c9cf6cab37cc4ab2"
+    },
+    "pages/sourcing_table/__pycache__/dataframe.cpython-311.pyc": {
+      "checksum": "e3720dbb1d6581674c33b45dab5d9839"
+    },
+    "pages/sourcing_table/__pycache__/dataframe.cpython-38.pyc": {
+      "checksum": "2ac2fb1b6a8c5bbcbe1951ac3a881ef1"
+    },
+    "pages/sourcing_table/__pycache__/insourcing_tops.cpython-311.pyc": {
+      "checksum": "5ec25bd4603a20c0ebc76731dcc13ee0"
+    },
+    "pages/sourcing_table/__pycache__/insourcing_tops.cpython-38.pyc": {
+      "checksum": "a4d26de554edcfe23460bb0fae96445f"
+    },
+    "pages/sourcing_table/__pycache__/simulation.cpython-311.pyc": {
+      "checksum": "3a2570bb56323fe318a1fb4133590f43"
+    },
+    "pages/sourcing_table/__pycache__/simulation.cpython-38.pyc": {
+      "checksum": "a1f1ba34eec0185011fb0c920b48b636"
+    },
+    "pages/sourcing_table/__pycache__/simulation_functional.cpython-38.pyc": {
+      "checksum": "ea84e3d5993e07d3527254b23566e004"
+    },
+    "pages/sourcing_table/dashboard_current_year.py": {
+      "checksum": "b0a80eed3bbef6c479ffa8fa3ccde4d7"
+    },
+    "pages/sourcing_table/dashboard_functional_current_year.py": {
+      "checksum": "d9d002fa832625a443707567433b4014"
+    },
+    "pages/sourcing_table/dashboard_functional_next_next_year.py": {
+      "checksum": "3710c4b17166ba4cdabaf93ef496a5f4"
+    },
+    "pages/sourcing_table/dashboard_functional_next_year.py": {
+      "checksum": "c5c811136f24e1fa4bf72abcad6b2ba3"
+    },
+    "pages/sourcing_table/dashboard_next_next_year.py": {
+      "checksum": "706bea7a81a871b3138463ce97f41f69"
+    },
+    "pages/sourcing_table/dashboard_next_year.py": {
+      "checksum": "869fc9e54a410e4f8a85723e24db260f"
+    },
+    "pages/sourcing_table/dataframe.py": {
+      "checksum": "1e8858c2c2ca3a57bd37f5cb654286ea"
+    },
+    "pages/sourcing_table/insourcing_tops.py": {
+      "checksum": "fcfcb3e6163903fa2b7b73ec42817ff5"
+    },
+    "pages/sourcing_table/simulation.py": {
+      "checksum": "4083b1a5ba7c7878c704681b2eeca10e"
+    },
+    "pages/sourcing_table/simulation_functional.py": {
+      "checksum": "5107cd91471407ca68fd43ae6d5e0777"
+    },
+    "utils.py": {
+      "checksum": "624a0b367f2085096a85913dcf5ebd1e"
+    }
+  }
+}
